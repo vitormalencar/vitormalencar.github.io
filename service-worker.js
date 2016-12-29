@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["images/2.jpg","b9b8a2b98134d9622256b4cea31af2c5"],["images/vitor_apcr2b_c_scale,w_200.jpg","be51a2d749401df1bf1e9c3e1317b9f4"],["images/vitor_apcr2b_c_scale,w_432.jpg","f3d831b85ea0485d2d39ee6cc6d18dab"],["images/vitor_apcr2b_c_scale,w_607.jpg","e445b001e4cc5cf11392d211a8be495c"],["images/vitor_apcr2b_c_scale,w_960.jpg","e40bf20c1a3e65e087c0a58ae5da13b9"],["index.html","587c089766642e16531cbba1f456d0eb"],["styles/main.02a69811.css","b21b7af57bb14caf142b7a2976cdd4d6"],["styles/main.css","2686d28d6157b5e9d6241016ca88393e"],["styles/main.fb06bed0.css","fb06bed0d7368976de0e7b704d9a67c5"]];
+var precacheConfig = [["images/2.jpg","b9b8a2b98134d9622256b4cea31af2c5"],["images/vitor_apcr2b_c_scale,w_200.jpg","be51a2d749401df1bf1e9c3e1317b9f4"],["images/vitor_apcr2b_c_scale,w_432.jpg","f3d831b85ea0485d2d39ee6cc6d18dab"],["images/vitor_apcr2b_c_scale,w_607.jpg","e445b001e4cc5cf11392d211a8be495c"],["images/vitor_apcr2b_c_scale,w_960.jpg","e40bf20c1a3e65e087c0a58ae5da13b9"],["index.html","11421fb328ba1647ea16ff29586cd6eb"],["styles/main.02a69811.css","b21b7af57bb14caf142b7a2976cdd4d6"],["styles/main.6465763b.css","6465763be94d50a3b53043e29af4d2a1"],["styles/main.css","2686d28d6157b5e9d6241016ca88393e"],["styles/main.fb06bed0.css","fb06bed0d7368976de0e7b704d9a67c5"]];
 var cacheName = 'sw-precache-v2-vitormalencar.github.io-' + (self.registration ? self.registration.scope : '');
 
 
