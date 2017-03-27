@@ -1,17 +1,18 @@
 {
-	"name": "Vitor Alencar",
-	"short_name": "Vitor Alencar",
-	"icons": [{
-		"src": "\/android-chrome-192x192.png",
-		"sizes": "192x192",
-		"type": "image\/png"
-	}, {
-		"src": "\/android-chrome-512x512.png",
-		"sizes": "512x512",
-		"type": "image\/png"
-	}],
-	"start_url": "./?utm_source=web_app_manifest",
-	"background_color": "#462373",
-	"display": "standalone",
-	"theme_color": "#462373"
+  "name": "Vitor Alencar",
+  "short_name": "Vitor",
+  "start_url": "/?homescreen=1",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F2F2F2",
+  "theme_color": "#462373",
+  "icons": [{
+    "src": "icon/android-chrome-192x192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }, {
+    "src": "icon/android-chrome-512x512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
 }
