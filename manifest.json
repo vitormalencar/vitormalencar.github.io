@@ -1,7 +1,8 @@
 {
+  "lang": "en",
   "name": "Vitor Alencar",
   "short_name": "Vitor Alencar",
-  "start_url": "/?homescreen=1",
+  "start_url": "https://vitormalencar.com/?homescreen=1",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#462373",
