@@ -3,7 +3,7 @@
   "name": "Vitor Alencar",
   "short_name": "VitorAlencar",
   "description":"Vitor Alencar - Developer and speaker, focused on new and scalable technologies, who loves sharing knowledge.",
-  "start_url": "https://vitormalencar.com/?homescreen=1",
+  "start_url": "./?utm_source=web_app_manifest&utm_medium=web_app_manifest",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#462373",
