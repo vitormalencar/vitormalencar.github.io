@@ -1,0 +1,28 @@
+CACHE MANIFEST
+#ver:07/05/2017 23:34:46
+#plugin:4.7.0
+
+CACHE:
+/783e91020031806760406c1cd0138f2b.png
+/b8707f567f3f3ccdf27eaa0905437499.webp
+/app.afd74c3c482977755bae.js
+/vendor.afd74c3c482977755bae.js
+/avatar/vitor.png
+/avatar/vitor.webp
+/icon/android-chrome-192x192.png
+/favicon.ico
+/icon/android-chrome-512x512.png
+/icon/apple-touch-icon.png
+/icon/favicon-32x32.png
+/icon/favicon-16x16.png
+/manifest.json
+/icon/mstile-150x150.png
+/img/banner.png
+/img/lighthouse.jpg
+/
+
+NETWORK:
+*
+
+FALLBACK:
+/ /
