@@ -1,18 +1,18 @@
 CACHE MANIFEST
-#ver:20/05/2017 11:15:30
+#ver:20/05/2017 11:40:39
 #plugin:4.7.0
 
 CACHE:
 /783e91020031806760406c1cd0138f2b.png
 /b8707f567f3f3ccdf27eaa0905437499.webp
-/app.df9ea27de1b7caafdd69.js
-/vendor.df9ea27de1b7caafdd69.js
+/app.cd651eb9c10dea9fecf2.js
+/vendor.cd651eb9c10dea9fecf2.js
 /avatar/vitor.png
 /avatar/vitor.webp
 /favicon.ico
-/icon/android-chrome-512x512.png
-/icon/apple-touch-icon.png
 /icon/android-chrome-192x192.png
+/icon/apple-touch-icon.png
+/icon/android-chrome-512x512.png
 /icon/favicon-16x16.png
 /icon/favicon-32x32.png
 /icon/mstile-150x150.png
