@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#ver:21/05/2017 22:06:36
+#ver:21/05/2017 22:11:56
 #plugin:4.7.0
 
 CACHE:
@@ -9,10 +9,10 @@ CACHE:
 /vendor.bfe511b30351a693266e.js
 /avatar/vitor.png
 /avatar/vitor.webp
-/icon/android-chrome-192x192.png
 /favicon.ico
-/icon/apple-touch-icon.png
+/icon/android-chrome-192x192.png
 /icon/android-chrome-512x512.png
+/icon/apple-touch-icon.png
 /icon/favicon-16x16.png
 /icon/favicon-32x32.png
 /icon/mstile-150x150.png
