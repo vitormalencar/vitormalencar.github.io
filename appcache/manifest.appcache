@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#ver:24/05/2017 21:25:03
+#ver:24/05/2017 21:25:31
 #plugin:4.7.0
 
 CACHE:
@@ -8,17 +8,17 @@ CACHE:
 /app.4fb1e6dfc8bc61e247d5.js
 /vendor.4fb1e6dfc8bc61e247d5.js
 /avatar/vitor.png
-/icon/android-chrome-192x192.png
 /avatar/vitor.webp
 /favicon.ico
-/icon/apple-touch-icon.png
 /icon/android-chrome-512x512.png
+/icon/android-chrome-192x192.png
+/icon/apple-touch-icon.png
 /icon/favicon-16x16.png
 /icon/favicon-32x32.png
-/manifest.json
 /icon/mstile-150x150.png
 /img/banner.png
 /img/lighthouse.jpg
+/manifest.json
 /
 
 NETWORK:
