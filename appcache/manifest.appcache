@@ -1,18 +1,18 @@
 CACHE MANIFEST
-#ver:27/05/2017 16:16:55
-#plugin:4.7.0
+#ver:27/05/2017 17:39:19
+#plugin:4.8.1
 
 CACHE:
 /783e91020031806760406c1cd0138f2b.png
 /b8707f567f3f3ccdf27eaa0905437499.webp
-/app.194e67a626e0ce006c50.js
-/vendor.194e67a626e0ce006c50.js
+/app.139f5571af6e6527b683.js
+/vendor.139f5571af6e6527b683.js
 /avatar/vitor.png
-/avatar/vitor.webp
 /icon/android-chrome-192x192.png
+/avatar/vitor.webp
 /favicon.ico
-/icon/apple-touch-icon.png
 /icon/android-chrome-512x512.png
+/icon/apple-touch-icon.png
 /icon/favicon-16x16.png
 /icon/favicon-32x32.png
 /icon/mstile-150x150.png
@@ -23,6 +23,3 @@ CACHE:
 
 NETWORK:
 *
-
-FALLBACK:
-/ /
