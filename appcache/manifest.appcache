@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#ver:29/05/2017 22:46:41
+#ver:30/05/2017 21:22:54
 #plugin:4.8.1
 
 CACHE:
@@ -13,8 +13,8 @@ CACHE:
 /favicon.ico
 /icon/apple-touch-icon.png
 /icon/android-chrome-512x512.png
-/icon/favicon-32x32.png
 /icon/favicon-16x16.png
+/icon/favicon-32x32.png
 /icon/mstile-150x150.png
 /img/banner.png
 /manifest.json
