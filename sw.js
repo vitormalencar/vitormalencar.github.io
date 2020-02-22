@@ -49,15 +49,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "ecfbb7bf8d813eb47783d158c0f24a45"
-  },
-  {
-    "url": "google-fonts/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZM.woff2",
-    "revision": "8276fdb72ae8f4714d4e6eba704cc39f"
-  },
-  {
-    "url": "google-fonts/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2",
-    "revision": "33543c5cc5d88f5695dd08c87d280dfd"
+    "revision": "050c8572a512863f7fe59cc0b1b459c8"
   },
   {
     "url": "manifest.webmanifest",
