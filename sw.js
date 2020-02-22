@@ -42,14 +42,22 @@ self.__precacheManifest = [
     "url": "netlify-identity-widget-50d1fd4f0934d9667f5f.js"
   },
   {
-    "url": "app-f3733d760e1480ff4f04.js"
+    "url": "app-f7fd4d7f72c194f21cc0.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-ceef87afc058962c4db9.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "f79eb375aab8a381b042fc45c17675ff"
+    "revision": "79ba1989492599a590e9b289e7ba3292"
+  },
+  {
+    "url": "google-fonts/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZM.woff2",
+    "revision": "8276fdb72ae8f4714d4e6eba704cc39f"
+  },
+  {
+    "url": "google-fonts/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2",
+    "revision": "33543c5cc5d88f5695dd08c87d280dfd"
   },
   {
     "url": "manifest.webmanifest",
@@ -146,7 +154,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-f3733d760e1480ff4f04.js`))) {
+  if (!resources || !(await caches.match(`/app-f7fd4d7f72c194f21cc0.js`))) {
     return await fetch(event.request)
   }
 
