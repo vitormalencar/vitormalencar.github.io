@@ -1,0 +1,1 @@
+:root{--bg-color:"#fffefc";--bg-color-dark:"#2F3437"}body{background-color:var(--bg-color)}@media (prefers-color-scheme:dark){body{background-color:var(--bg-color-dark)}}.no-js .react-switch-bg,.no-js .react-switch-handle{cursor:not-allowed!important}
