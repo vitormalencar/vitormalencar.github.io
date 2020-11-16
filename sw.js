@@ -27,45 +27,38 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-6e9b77b0df35b16928c9.js"
+    "url": "webpack-runtime-cf90c5eefcda74864d61.js"
   },
   {
-    "url": "styles.1c50cae18a7668a66800.css"
+    "url": "framework-e8cdf4427d365cd536e7.js"
   },
   {
-    "url": "styles-378d0633821afbb53296.js"
-  },
-  {
-    "url": "commons-bdb8ba3491d100c41071.js"
-  },
-  {
-    "url": "netlify-identity-widget-50d1fd4f0934d9667f5f.js"
-  },
-  {
-    "url": "app-650ab397b8f1c2dcf708.js"
-  },
-  {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-ceef87afc058962c4db9.js"
+    "url": "app-01faa88344b7803d1e3b.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "f4877df1e1333b8d289d1b3166e94d26"
+    "revision": "8cb4ab7314de7fbf8dd3644140dc6a52"
+  },
+  {
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-19245c8506e49b502b12.js"
+  },
+  {
+    "url": "polyfill-92b076c0eec7a7a7a6c5.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "1c12818fb40d54c385d5025e1ce25bc0"
+    "revision": "f7144fe665d2269d311365a254031623"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
-
-importScripts(`idb-keyval-iife.min.js`)
+importScripts(`idb-keyval-3.2.0-iife.min.js`)
 
 const { NavigationRoute } = workbox.routing
 
@@ -146,7 +139,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-650ab397b8f1c2dcf708.js`))) {
+  if (!resources || !(await caches.match(`/app-01faa88344b7803d1e3b.js`))) {
     return await fetch(event.request)
   }
 
